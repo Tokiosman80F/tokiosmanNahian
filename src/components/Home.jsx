@@ -1,4 +1,3 @@
-import React from "react";
 import { FiDownload } from "react-icons/fi";
 import Lottie from "lottie-react";
 import avatar from "../assets/heroImh.json";
