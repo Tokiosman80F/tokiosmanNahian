@@ -12,6 +12,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.linkedin.com/",
+      bg: "bg-sky-500",
     },
     {
       id: 2,
@@ -21,6 +22,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://github.com/Tokiosman80F",
+      bg: "bg-purple-600",
     },
     {
       id: 3,
@@ -30,6 +32,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "mailto:tokiosman@outlook.com",
+      bg: "bg-red-600",
     },
     {
       id: 4,
@@ -40,17 +43,18 @@ const SocialLinks = () => {
       ),
       href: "/TokiOsman.pdf",
       download: true,
+      bg: "bg-orange-500",
     },
   ];
   console.log(links);
   return (
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul>
-        {links.map(({ id, child, href, style, download }) => (
+        {links.map(({ id, child, href, style, download, bg }) => (
           <li
             key={id}
             className={
-              "flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:ml-[-10px] duration-300" +
+              `flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:ml-[-10px] duration-300 ${bg} ` +
               " " +
               style
             }

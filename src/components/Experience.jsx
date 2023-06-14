@@ -22,12 +22,12 @@ const Experience = () => {
   return (
     <div name="experience" className="my-container">
       <div className="my-info-container">
-        <div>
+        <div className="pb-8">
           <p className="my-title">Experience</p>
-          <p className="py-6">This are the Technology i have worked with</p>
+          <p className="py-10">This are the Technology i have worked with</p>
         </div>
         {/* ------------ */}
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
           {technolgy.map(({ id, src, title, style }) => (
             <div
               key={id}

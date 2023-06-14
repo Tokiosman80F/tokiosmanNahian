@@ -25,7 +25,7 @@ const Home = () => {
           </p>
 
           <div>
-            <button className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 gap-2">
+            <button className="my-button flex items-center gap-2">
               Portfolio
               <span className="animate-pulse">
                 <FiDownload />
