@@ -9,7 +9,7 @@ const Home = () => {
     to-gray-800"
     >
       {/* main */}
-      <div className="max-w-screen-lg mx-auto flex flex-col-reverse items-center justify-center h-full px-4 md:flex-row ">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row ">
         {/* right side content */}
         <div className=" flex flex-col justify-center h-full">
           <h1

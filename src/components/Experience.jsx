@@ -1,6 +1,6 @@
 import html from "../../public/html.png";
 import css from "../../public/css.png";
-import node from "../../public/node.png";
+import node from "../../public/node.svg";
 import js from "../../public/js.png";
 import mongo from "../../public/mongo.png";
 import react from "../../public/react.png";
@@ -31,7 +31,7 @@ const Experience = () => {
           {technolgy.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 duration-500 p-2 rounded-lg ${style}`}
+              className={`shadow-md hover:scale-105 duration-500  rounded-lg ${style}`}
             >
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
