@@ -46,7 +46,7 @@ const SocialLinks = () => {
       bg: "bg-orange-500",
     },
   ];
-  console.log(links);
+  // console.log(links);
   return (
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul>

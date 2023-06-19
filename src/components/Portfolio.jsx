@@ -8,7 +8,7 @@ const Portfolio = () => {
     { id: 5, src: image },
   ];
   return (
-    <div className="my-container-2">
+    <div name="portfolio" className="my-container-2">
       <div className="my-info-container ">
         {/* flex-1 */}
         <div className="pb-8">

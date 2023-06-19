@@ -20,7 +20,7 @@ const Experience = () => {
     { id: 9, src: github, title: "GitHub", style: "shadow-gray-500" },
   ];
   return (
-    <div name="experience" className="my-container">
+    <div name="experience" className="my-container pt-16">
       <div className="my-info-container">
         <div className="pb-8">
           <p className="my-title">Experience</p>
