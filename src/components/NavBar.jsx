@@ -1,14 +1,6 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import {
-  Link,
-  DirectLink,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -20,8 +12,8 @@ const NavBar = () => {
     { id: 5, link: "contact" },
   ];
   return (
-    <div className="fixed flex justify-between items-center w-full h-20 bg-black text-white px-5 z-50 ">
-      <div className="font-signature text-5xl">Toki Osman</div>
+    <div className="fixed flex justify-between items-center w-full h-20 bg-black text-white px-4 z-50 ">
+      <div className="font-signature text-3xl ">Toki Osman</div>
       <ul className="hidden md:flex">
         {links.map(({ link, id }) => {
           return (
@@ -50,7 +42,7 @@ const NavBar = () => {
         {nav ? <FaTimes /> : <FaBars />}
       </div>
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-20 left-0 w-full h-full bg-gradient-to-b from-black to-gray-800 text-gray-400 z-50">
+        <ul className="flex flex-col justify-center items-center absolute top-20 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-400 z-50">
           {links.map(({ link, id }) => {
             return (
               <li
@@ -64,6 +56,9 @@ const NavBar = () => {
                   smooth={true}
                   offset={50}
                   duration={500}
+                  onClick={() => {
+                    setNav(!nav);
+                  }}
                 >
                   {link}
                 </Link>

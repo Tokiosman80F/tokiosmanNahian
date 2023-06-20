@@ -2,7 +2,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 // import {BsFil}
-const SocialLinks = () => {
+export const SocialLinks = () => {
+  // console.log(links);
   const links = [
     {
       id: 1,
@@ -46,7 +47,7 @@ const SocialLinks = () => {
       bg: "bg-orange-500",
     },
   ];
-  // console.log(links);
+
   return (
     <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul>

@@ -33,7 +33,7 @@ const Contact = () => {
               placeholder="Enter Your Message "
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
-            <button className="my-button">Let's Talk</button>
+            <button className="my-button w-full md:w-fit">Let's Talk</button>
           </form>
         </div>
       </div>
