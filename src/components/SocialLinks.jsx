@@ -42,7 +42,7 @@ export const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/TokiOsman-Resume.pdf",
+      href: "https://drive.google.com/file/d/1t68bfduEeuKEB7LFLRa51UujSKqpoBPQ/view?usp=drive_link",
       download: true,
       bg: "bg-orange-500",
     },
