@@ -12,7 +12,7 @@ export const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/",
+      href: "https://www.linkedin.com/in/tokiosman/",
       bg: "bg-sky-500",
     },
     {
@@ -42,7 +42,7 @@ export const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/TokiOsman.pdf",
+      href: "/TokiOsman-Resume.pdf",
       download: true,
       bg: "bg-orange-500",
     },
